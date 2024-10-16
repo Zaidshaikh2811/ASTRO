@@ -1,0 +1,53 @@
+---
+import {Image} from "astro:assets"
+
+
+
+---
+
+
+<header
+    class="flex justify-between items-center px-24 py-12 max-sm:px-5 max-sm:py-10 max-w-7xl justify-self-center w-full"
+>
+    <a href="/" class="flex gap-x-4 items-center">
+        <Image
+            src="/heartbeat.png"
+            alt="rhythm nation logo"
+            width={64}
+            height={64}
+            format="webp"
+            class="w-16"
+        />
+
+        <p class="uppercase text-3xl text-zinc-900">blog</p>
+        <ul class="flex gap-5 ">
+            <li>
+                <a
+                    href="https://twitter.com/rhythm_nation"
+    class="text-2xl text-zinc-700 font-semibold hover:text-zinc-900  transition-all ease-in"
+                    >Home</a
+                >
+            </li>
+            <li>
+              <a
+    href="https://twitter.com/rhythm_nation"
+    class="text-2xl text-zinc-700 font-semibold hover:text-zinc-900  transition-all ease-in"
+    aria-label="Link to my Twitter page"
+>
+    About
+</a>
+
+            </li>
+            <li>
+                <a
+                    href="https://twitter.com/rhythm_nation"
+    class="text-2xl text-zinc-700 font-semibold hover:text-zinc-900 transition-all ease-in"
+                    >Contact</a
+                >
+            </li>
+
+        </ul>
+    </a>
+
+   
+</header>
